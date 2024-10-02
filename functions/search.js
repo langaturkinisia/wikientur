@@ -19,7 +19,7 @@ exports.handler = async (event, context) => {
             const title = titleMatch ? titleMatch[1] : 'Untitled';
             results.push({
                 title: title,
-                url: `https://your-github-username.github.io/wikientur/articles/${file}`
+                url: `https://turkistanese.github.io/wikientur/articles/${file}`
             });
         }
     }
